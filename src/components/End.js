@@ -27,7 +27,7 @@ export default class End extends Component {
               style={styles.headerImage}
             />
           </View>
-          <View style={styles.body}>
+          <View style={styles.bodyEx}>
             <View style={styles.sectionContainer}>
                 <Text style={styles.sectionTitle}>Push up</Text>
                 <View style={styles.sectionReps}>

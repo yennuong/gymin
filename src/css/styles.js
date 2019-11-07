@@ -237,4 +237,7 @@ export default StyleSheet.create({
         fontSize: 37,
         fontWeight: '700',
     },
+    bodyEx:{
+        width: 480,
+    },
 });
