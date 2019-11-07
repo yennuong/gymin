@@ -32,7 +32,6 @@ export default StyleSheet.create({
         minHeight: 210,
         width: '100%',
         position: 'relative',
-        color: '#fff',
     },
     backgroundImage:{
         borderRadius: 10,
@@ -81,14 +80,6 @@ export default StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
     },
-    colLeft:{
-        width: '50%',
-    },
-    colRight:{
-        width: '50%',
-        textAlign: 'right',
-    },
-
     fullWidthButton:{
         borderColor: '#ff8900',
         borderWidth: 1,
@@ -128,7 +119,6 @@ export default StyleSheet.create({
         borderTopLeftRadius: 40,
         marginTop: -40,
         backgroundColor: '#081b33',
-        color: '#fff',
         padding: 20,
     },
     lessonTitle: {
@@ -144,7 +134,6 @@ export default StyleSheet.create({
         marginBottom: 20,
     },
     howWork:{
-        color: '#fff',
         marginBottom: 20,
     },
     howWorkTitle: {
