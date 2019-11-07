@@ -15,7 +15,7 @@ import Challenges from './src/components/Challenges';
 import PushUp from './src/components/PushUp';
 import PushUpDetail from './src/components/PushUpDetail';
 import End from './src/components/End';
-
+import Detecter from './src/lib/Detecter';
 
 // console.disableYellowBox = true;
 
@@ -23,7 +23,8 @@ const HomeStack = createStackNavigator({
     Home: Challenges,
     Details: PushUp,
     DetailsItem: PushUpDetail,
-    End: End
+    End: End,
+    Detecter: Detecter,
 });
 
 export default createAppContainer(HomeStack);
